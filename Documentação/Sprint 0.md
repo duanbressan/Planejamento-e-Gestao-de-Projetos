@@ -14,10 +14,10 @@ Decisões tecnológicas e de desenvolvimento:
 * Em caso de existir requisitos não funcionais que influenciam nas decisões de desenvolvimento, já tomar decisões de atendam a esses requisitos não funcionais.
    
 Preparação do ambiente necessário para o desenvolvimento:
-* Configuração de hardware
-* Instalação do software
-* Teste completo do ambiente de desenvolvimento
-* Treinar os membros da equipe para todos saibam utilizar as ferramentas definidas (definir um momento extra-classe)
+* Configuração de hardware;
+* Instalação do software;
+* Teste completo do ambiente de desenvolvimento;
+* Treinar os membros da equipe para todos saibam utilizar as ferramentas definidas (definir um momento extra-classe);
 
 ## Desenvolvimento
 
