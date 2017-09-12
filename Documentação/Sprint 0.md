@@ -30,15 +30,15 @@ As ferramentas, tecnologias e linguagens de programação necessárias estão li
 * Java Script;
 
 ### Gestão, Documentação e Acompanhamento do Projeto:
-* GitHub;
-* Trello;
+* [GitHub](https://github.com/);
+* [Trello](https://trello.com/);
 
 ### Tecnologias:
-* Google Script;
-* Bootstap;
+* [Google Script](https://developers.google.com/apps-script/guides/docs);
+* [Bootstap](http://getbootstrap.com);
 
 ### Hospedagem:
-* Bitballoon;
+* [Bitballoon](https://www.bitballoon.com);
 
 
 ## Tabela de Conhecimento
