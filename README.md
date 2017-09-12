@@ -7,13 +7,13 @@ Repositório destinado ao Projeto Minha Matriz que consistem em um site para aux
 
 ## [Documentação](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/tree/master/Documenta%C3%A7%C3%A3o)
 
-### [Semana 1](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana1.md)
+### [Semana 1](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana%201.md)
 Definição do projeto a ser desenvolvido.
 
-### [Semana 2](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana2.md)
+### [Semana 2](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana%202.md)
 Visão do produto e lista de stakeholders.
 
-### [Semana 2](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana3.md)
+### [Semana 2](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Semana%203.md)
 Histórias do Usuário.
 
 ### [Sprint 0](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Sprint%200.md)
