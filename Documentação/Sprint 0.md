@@ -18,3 +18,40 @@ Preparação do ambiente necessário para o desenvolvimento:
 * Instalação do software
 * Teste completo do ambiente de desenvolvimento
 * Treinar os membros da equipe para todos saibam utilizar as ferramentas definidas (definir um momento extra-classe)
+
+## Desenvolvimento
+
+Para o desenvolvimento do projeto foi optado pelo desenvolvimento web, cada programador vai optar por sua ferramenta de edição de texto preferida, sendo que a mesma não interfere no desenvolvimento do site.
+As ferramentas, tecnologias e linguagens de programação necessárias estão listas a baixo.
+
+### Linguagens:
+* HTML;
+* CSS;
+* Java Script;
+
+### Gestão, Documentação e Acompanhamento do Projeto:
+* GitHub;
+* Trello;
+
+### Tecnologias:
+* Google Script;
+* Bootstap;
+
+### Hospedagem:
+* Bitballoon;
+
+
+## Tabela de Conhecimento
+
+Início do Projeto:
+
+Tecnologia | Duan | Jozias | Gabriel
+--- | :---: | :---: | :---:
+HTML | Médio | Avançado | Médio 
+CSS | Médio | Avançado | Médio
+Java Script | Iniciante | Iniciante | Iniciante
+GitHub | Avançado | Iniciante | Iniciante
+Trello | Avançado | Iniciante | Iniciante
+Google Script | Médio | Iniciante | Iniciante
+Bootstap | Iniciante | Avançado | Iniciante
+Bitballoon | Avançado | Médio | Médio
