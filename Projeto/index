@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>MinhaMatriz</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <style>  
+	    body {
+	        background-color: white;
+	        color: 3b3b3b;
+	    }
+	  </style>
+	</head>
+	<body>
+	 
+	<!-- Cor UFFS: 004729 -->
+
+	</br>
+	<div class="container">
+	  <h2><center>MinhaMatriz</center></h2>
+	  <p><center>A faculdade é a melhor fase, dizem. Mas é melhor ainda se acabar rápido.</center></p>
+	  </br>
+	  <p><b>&nbsp;&nbsp;PASSO 1: Quais grades e semestres? (clique para ativar)</b></p>
+	  <div class="btn-group btn-group-justified">
+	    <a href="#" class="btn btn-default">Grade 1</a>
+	    <a href="#" class="btn btn-default">Grade 2</a>
+	    <a href="#" class="btn btn-default">Grade 3</a>
+	    <a href="#" class="btn btn-default">Grade 4</a>
+	  </div>
+	</div>
+	 
+	<div class="container">
+	  <div class="btn-group btn-group-justified">
+	    <a href="#" class="btn btn-default">Semestre 1</a>
+	    <a href="#" class="btn btn-default">Semestre 2</a>
+	    <a href="#" class="btn btn-default">Semestre 3</a>
+	    <a href="#" class="btn btn-default">Semestre 4</a>
+	    <a href="#" class="btn btn-default">Semestre 5</a>
+	    <a href="#" class="btn btn-default">Semestre 6</a>
+	    <a href="#" class="btn btn-default">Semestre 7</a>
+	    <a href="#" class="btn btn-default">Semestre 8</a>
+	  </div>
+	</div>
+	 
+	<script>
+	$(document).ready(function(){
+	    $(".btn-default:first").click(function(){
+	        $(this).button('toggle');
+	    });  
+	});
+	</script>
+	 
+	</br>
+	<center>
+	      <div class="container">          
+	      <table class="table table-hover">
+	        <thead>
+	          <tr>
+	            <th>PASSO 2: Qual CCR deseja cursar? (clique para ativar)</th>
+	          </tr>
+	        </thead>
+	        <tbody>
+	          <tr>
+	            <td>Matemática Instrumental</td>
+	          </tr>
+	          <tr>
+	            <td>Circuitos Digitais</td>
+	          </tr>
+	          <tr>
+	            <td>Banco De Dados I</td>
+	          </tr>
+	        </tbody>
+	      </table>
+	    </div>
+	   
+	    </center>
+	   
+	 
+	<div class="container">
+	<p><b>&nbsp;&nbsp;PASSO 3: Quais turnos? (clique para ativar)</b></p>
+		<div class="panel panel-default">
+			<div class="panel-body">
+			<label class="checkbox-inline"><input type="checkbox" value="">Matutino</label>
+			<label class="checkbox-inline"><input type="checkbox" value="">Vespertino</label>
+			<label class="checkbox-inline"><input type="checkbox" value="">Noturno</label>
+			</div>
+		</div>
+	</div>
+
+	</br><center><button type="button" class="btn btn-lg btn-default">GERAR MATRIZ</button></center></br></br>
+
+	<!--
+
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<table class="table table-hover">
+				<thead>
+				  <tr>
+					<th><center>MATRIZ GERADA</center></th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>Matemática Instrumental</td>
+				  </tr>
+				  <tr>
+					<td>Circuitos Digitais</td>
+				  </tr>
+				  <tr>
+					<td>Banco De Dados I</td>
+				  </tr>
+				  <tr>
+					<td>Matemática Instrumental</td>
+				  </tr>
+				  <tr>
+					<td>Circuitos Digitais</td>
+				  </tr>
+				  <tr>
+					<td>Banco De Dados I</td>
+				  </tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	-->
+
+		<div class="container">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<table class="table table-hover">
+					<thead>
+					  <tr>
+						<th><center><h4>MATRIZ GERADA</h4></center></th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-default">1,5 Anos</button></td>
+					  </tr>
+					  <tr>
+						<td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-default">1,5 Anos</button></td>
+					  </tr>
+					  <tr>
+						<td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-default">1,5 Anos</button></td>
+					  </tr>
+					  <tr>
+						<td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-default">1,5 Anos</button></td>
+					  </tr>
+					  <tr>
+						<td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-default">1,5 Anos</button></td>
+					  </tr>
+					  
+					</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
