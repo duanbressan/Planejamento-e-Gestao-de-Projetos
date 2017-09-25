@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <title>MinhaMatriz</title>
+  <link rel="shortcut icon" href="logo1.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
@@ -20,17 +22,26 @@
 
 
 <!-- INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER -->
-
+<div class="head">
+  <div class="container">
+    <h2><center>MinhaMatriz</center></h2>
+    <p><center>A faculdade é a melhor fase, dizem. Mas é melhor ainda se acabar rápido.</center></p>
+    </br>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+    $(".btn-default:first").click(function(){
+        $(this).button('toggle');
+    });
+});
+</script>
 </br>
-<div class="container">
-  <h2><center>MinhaMatriz</center></h2>
-  <p><center>A faculdade é a melhor fase, dizem. Mas é melhor ainda se acabar rápido.</center></p>
-  </br>
 
 <!-- FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER -->
 
 <!-- INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 -->
-
+<div class="container">
   <p><b>&nbsp;&nbsp;PASSO 1: Quais grades? (clique para ativar)</b></p>
   <div class="btn-group btn-group-justified">
     <a href="#" class="btn btn-default">Grade Integral</a>
@@ -876,7 +887,7 @@ $(document).ready(function(){
                 <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
               </tr>
 			        <tr>
-                <td></br><center>Verde: concluído / Vermelho: bloqueado / Branco: disponível</center</td>
+                <td></br><center><font color="green">Verde: concluído</font> / <font color="red">Vermelho: bloqueado </font>/ Branco: disponível</center></td>
               </tr>
 
             </tbody>
@@ -885,8 +896,19 @@ $(document).ready(function(){
     </div>
 </div>
 
-<!-- FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA -->
+<div class="footer">
+  <div class="container">
+  </br>
+      <p> NOME <p>
+      <P> Email <p>
+      <p> Projetos <p>
+    </br>
+    </div>
+  </div>
+</div>
 
+<!-- FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA -->
+  
     <!-- google api and get sheet content -->
     <script src="js/gradeIntegral.js"></script>
     <script src="js/gradeNoturno.js"></script>
