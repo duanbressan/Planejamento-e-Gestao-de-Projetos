@@ -31,7 +31,8 @@ As ferramentas, tecnologias e linguagens de programação necessárias estão li
 
 ### Gestão, Documentação e Acompanhamento do Projeto:
 * [GitHub](https://github.com/);
-* [Trello](https://trello.com/);
+* Kanban Físico;
+* Gráfico Burndown;
 
 ### Tecnologias:
 * [Google Script](https://developers.google.com/apps-script/guides/docs);
@@ -45,13 +46,12 @@ As ferramentas, tecnologias e linguagens de programação necessárias estão li
 
 Início do Projeto:
 
-Tecnologia | Duan | Jozias | Gabriel
---- | :---: | :---: | :---:
-HTML | Médio | Avançado | Médio 
-CSS | Médio | Avançado | Médio
-Java Script | Iniciante | Iniciante | Iniciante
-GitHub | Avançado | Iniciante | Iniciante
-Trello | Avançado | Iniciante | Iniciante
-Google Script | Médio | Iniciante | Iniciante
-Bootstap | Iniciante | Avançado | Iniciante
-Bitballoon | Avançado | Médio | Médio
+Tecnologia | Duan | Jozias | Gabriel | Henrique
+--- | :---: | :---: | :---: | :---: 
+HTML | Médio | Avançado | Médio | Avançado 
+CSS | Médio | Avançado | Médio | Avançado
+Java Script | Iniciante | Iniciante | Iniciante | Iniciante
+GitHub | Avançado | Iniciante | Iniciante | Iniciante
+Google Script | Médio | Iniciante | Iniciante | Iniciante
+Bootstap | Iniciante | Avançado | Iniciante | Médio
+Bitballoon | Avançado | Médio | Médio | Médio
