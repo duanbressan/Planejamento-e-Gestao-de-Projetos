@@ -15,7 +15,7 @@ Para a construção, elaboração e desenvolvimento do projeto foram utilizadas 
 * Google Script;
 * Boostrap;
 * Bitballoon;
-* Trello;
+* Kanban;
 
 
 ## [Documentação](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/tree/master/Documenta%C3%A7%C3%A3o)
@@ -31,3 +31,8 @@ Histórias do Usuário.
 
 ### [Sprint 0](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Sprint%200.md)
 Decisões tecnológicas e de desenvolvimento e Preparação do ambiente necessário para o desenvolvimento.
+
+### [Sprint 1](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Sprint%201.md)
+Primeira semana de desenvolvimento, aonde foram criadas as bases de layout e de desenvolvimento do projeto.
+* [Review do PO](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Sprint%201%20-%20Review.md)
+* [Análise](https://github.com/duanbressan/Planejamento-e-Gestao-de-Projetos/blob/master/Documenta%C3%A7%C3%A3o/Sprint%201%20-%20An%C3%A1lise.md)
