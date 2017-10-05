@@ -1,0 +1,21 @@
+# Análise da Sprint 1
+
+Reunião de equipe para análise do Gráfico Burndown e a partir dele comentar e sugerir mudanças para melhorar o desempenho do desenvolviemnto do projeto
+e posiveis melhoras no produto e equipe.
+
+### 1 - Análise da reunião de review com o PO:
+
+Problemas:	
+* As cores e a logo parecem "não conversar".
+* As cores do bottom do site não estão boas.
+* Os botões do dropdown do semestre devem ser da mesma cor do tema.
+
+Solução: 
+* Definir um padrão de cores e uma única paleta.
+
+Problemas:  
+* A logo está fora de posicionamento.
+* A logo não se ajusta responsivamente.
+
+Solução: 
+* Mudar o dimensionamento no HTML.
