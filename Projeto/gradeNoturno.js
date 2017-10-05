@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $.getJSON(url, function (json) {
 
-        var divContainer = document.getElementById("showPosts");
+        var divContainer = document.getElementById("tablenoturno-semestre1");
         
             console.log(json.records.length); 
 

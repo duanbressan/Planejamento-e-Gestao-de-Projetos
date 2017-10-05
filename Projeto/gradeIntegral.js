@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-    var url = "https://script.google.com/macros/s/AKfycbwVobbz9rduw2NelcE5fLrT5zce9WdDseCeOiwJhLWnAGQuqsfK/exec?action=readNoturno";
+    var url = "https://script.google.com/macros/s/AKfycbwVobbz9rduw2NelcE5fLrT5zce9WdDseCeOiwJhLWnAGQuqsfK/exec?action=readIntegral";
 
     $.getJSON(url, function (json) {
 
-        var divContainer = document.getElementById("showPosts");
+        var divContainer = document.getElementById("tableintegral-semestre1");
         
             console.log(json.records.length); 
 
@@ -12,14 +12,17 @@ $(document).ready(function() {
 
             console.log(json.records[i].semestre_1); 
 
-            var post = document.createElement("div");
+            tr = divContainer.insertRow(-1);
+            var tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = json.records[i].semestre_1;
 
-            post.innerHTML =    "<div class='content-text'>" +
-                                    "<p>" + json.records[i].semestre_1 + "</p>" +
-                                    "<p>" + json.records[i].descricao_1 + "</p>" +
-                                "</div>";
+//            var post = document.createElement("div");
 
-            divContainer.appendChild(post);
+//            post.innerHTML =    "<div class='content-text'>" +
+//                                    "<p>" + json.records[i].semestre_1 + "</p>" +
+//                                "</div>";
+
+//            divContainer.appendChild(post);
         }
     });
 });  
