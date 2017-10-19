@@ -7,10 +7,8 @@ margin-top:0px;
 .footer{
 padding-left: 1%;
 position: inherit;
-background-color:#DCDCDC;
-color:black;
-/*border-style: solid;*/
-border-top: 5px solid #32CD32;
+background-color:#004729;
+color:white;
 /*border-color: #000000;*/
 margin-top:0px;
 }
