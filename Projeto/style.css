@@ -2,6 +2,9 @@
 background-color:#004729;
 color:white;
 margin-top:0px;
+font-style: italic;
+font-family: "Cinzel";
+font-size: 18px;
 }
 
 .footer{
@@ -11,6 +14,10 @@ background-color:#004729;
 color:white;
 /*border-color: #000000;*/
 margin-top:0px;
+
+font-style: italic;
+font-family: "Cinzel";
+font-size: 18px;
 }
 
 .text-center .img-responsive{
