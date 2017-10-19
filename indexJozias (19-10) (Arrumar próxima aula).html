@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MinhaMatriz</title>
+  <link rel="shortcut icon" href="logo1.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body {
+        background-color: white;
+        color: 3b3b3b;
+    }
+    /* Sucess Checkbox Style */
+    .form-group input[type="checkbox"] {
+    display: none;
+    }
+
+    .form-group input[type="checkbox"] + .btn-group > label span {
+        width: 20px;
+    }
+
+    .form-group input[type="checkbox"] + .btn-group > label span:first-child {
+        display: none;
+    }
+    .form-group input[type="checkbox"] + .btn-group > label span:last-child {
+        display: inline-block;
+    }
+
+    .form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+        display: inline-block;
+    }
+    .form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+        display: none;
+    }
+
+    /* Espaçamento da tabela table.tr NÃO ESTÁ FUNCIONANDO... */
+    .td, table-hover.tr {
+      paddind: 30px 30px 30px 30px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Cor UFFS: 004729 -->
+
+
+<!-- INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER - INÍCIO HEADER -->
+<div class="head">
+  <div class="container center-inline">
+
+    <h2><center>MinhaMatriz</center></h2>
+    <img class="img-responsive " src="logo1.png" width="10%" height="10%" >
+    <p><center>A faculdade é a melhor fase, dizem. Mas é melhor ainda se acabar rápido.</center></p>
+    </br>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+    $(".btn-default:first").click(function(){
+        $(this).button('toggle');
+    });
+});
+</script>
+</br>
+
+<!-- FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER - FIM HEADER -->
+
+<!-- INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 - INÍCIO PASSO 1 -->
+<div class="container">
+  <p><b>&nbsp;&nbsp;PASSO 1: Quais grades? (clique para ativar)</b></p>
+  <div class="btn-group btn-group-justified">
+    <a href="#" class="btn btn-default">Grade Integral</a>
+    <a href="#" class="btn btn-default">Grade Noturno</a>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $(".btn-default:first").click(function(){
+        $(this).button('toggle');
+    });
+});
+</script>
+
+</br>
+
+<!-- FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 - FIM PASSO 1 -->
+
+<!-- INÍCIO PASSO 2 - INÍCIO PASSO 2 - INÍCIO PASSO 2 - INÍCIO PASSO 2 - INÍCIO PASSO 2 - INÍCIO PASSO 2 - INÍCIO PASSO 2 -->
+
+      <div class="container">
+      <p><b>&nbsp;&nbsp;PASSO 2: Quais disciplinas? (clique para ativar)</b></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div class="panel-group" >
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          &nbsp&nbspSemestre 1 <a data-toggle="collapse" href="#collapse1"><button type="button" class="btn btn-primary">+</button></a>
+                        </tr>
+                      </thead>
+                    </table>
+                  </div>
+                <div class="container">
+                  <div id="collapse1" class="panel-collapse collapse">
+                    <table class="table table-hover" id="tableintegral-semestre1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success1" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success1" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success1" class="[ btn btn-default ]"> Matemática Instrumental </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success2" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success2" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success2" class="[ btn btn-default ]"> Circuitos Digitais </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success3" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success3" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success3" class="[ btn btn-default ]"> Banco De Dados I </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success4" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success4" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success4" class="[ btn btn-default ]"> Matemática Instrumental </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success5" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success5" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success5" class="[ btn btn-default ]"> Circuitos Digitais </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="[ form-group ]">
+                                <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success6" autocomplete="off" />
+                                <div class="[ btn-group ]">
+                                    <label for="fancy-checkbox-success6" class="[ btn btn-success ]">
+                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                        <span> </span>
+                                    </label>
+                                    <label for="fancy-checkbox-success6" class="[ btn btn-default ]"> Banco De Dados I </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        &nbsp&nbspSemestre 2 <a data-toggle="collapse" href="#collapse2"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              <div class="container">
+                <div id="collapse2" class="panel-collapse collapse">
+                  <table class="table table-hover" id="tableintegral-semestre2">
+                    <tbody>
+                      <tr>
+                        <td>Matemática Instrumental</td>
+                      </tr>
+                      <tr>
+                        <td>Circuitos Digitais</td>
+                      </tr>
+                      <tr>
+                        <td>Banco De Dados I</td>
+                      </tr>
+                      <tr>
+                        <td>Matemática Instrumental</td>
+                      </tr>
+                      <tr>
+                        <td>Circuitos Digitais</td>
+                      </tr>
+                      <tr>
+                        <td>Banco De Dados I</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      &nbsp&nbspSemestre 3 <a data-toggle="collapse" href="#collapse3"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            <div class="container">
+              <div id="collapse3" class="panel-collapse collapse">
+                <table class="table table-hover" id="tableintegral-semestre3">
+                  <tbody>
+                    <tr>
+                      <td>Matemática Instrumental</td>
+                    </tr>
+                    <tr>
+                      <td>Circuitos Digitais</td>
+                    </tr>
+                    <tr>
+                      <td>Banco De Dados I</td>
+                    </tr>
+                    <tr>
+                      <td>Matemática Instrumental</td>
+                    </tr>
+                    <tr>
+                      <td>Circuitos Digitais</td>
+                    </tr>
+                    <tr>
+                      <td>Banco De Dados I</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    &nbsp&nbspSemestre 4 <a data-toggle="collapse" href="#collapse4"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          <div class="container">
+            <div id="collapse4" class="panel-collapse collapse">
+              <table class="table table-hover" id="tableintegral-semestre4">
+                <tbody>
+                  <tr>
+                    <td>Matemática Instrumental</td>
+                  </tr>
+                  <tr>
+                    <td>Circuitos Digitais</td>
+                  </tr>
+                  <tr>
+                    <td>Banco De Dados I</td>
+                  </tr>
+                  <tr>
+                    <td>Matemática Instrumental</td>
+                  </tr>
+                  <tr>
+                    <td>Circuitos Digitais</td>
+                  </tr>
+                  <tr>
+                    <td>Banco De Dados I</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 5 <a data-toggle="collapse" href="#collapse5"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse5" class="panel-collapse collapse">
+            <table class="table table-hover" id="tableintegral-semestre5">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 6 <a data-toggle="collapse" href="#collapse6"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse6" class="panel-collapse collapse">
+            <table class="table table-hover" id="tableintegral-semestre6">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 7 <a data-toggle="collapse" href="#collapse7"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse7" class="panel-collapse collapse">
+            <table class="table table-hover" id="tableintegral-semestre7">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 8 <a data-toggle="collapse" href="#collapse8"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse8" class="panel-collapse collapse">
+            <table class="table table-hover" id="tableintegral-semestre8">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+              <div class="panel-group" >
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          &nbsp&nbspSemestre 1 <a data-toggle="collapse" href="#collapse9"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                        </tr>
+                      </thead>
+                    </table>
+                  </div>
+                <div class="container">
+                  <div id="collapse9" class="panel-collapse collapse">
+                    <table class="table table-hover" id="tablenoturno-semestre1">
+                      <tbody>
+                        <tr>
+                          <td>Matemática Instrumental</td>
+                        </tr>
+                        <tr>
+                          <td>Circuitos Digitais</td>
+                        </tr>
+                        <tr>
+                          <td>Banco De Dados I</td>
+                        </tr>
+                        <tr>
+                          <td>Matemática Instrumental</td>
+                        </tr>
+                        <tr>
+                          <td>Circuitos Digitais</td>
+                        </tr>
+                        <tr>
+                          <td>Banco De Dados I</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        &nbsp&nbspSemestre 2 <a data-toggle="collapse" href="#collapse10"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              <div class="container">
+                <div id="collapse10" class="panel-collapse collapse">
+                  <table class="table table-hover" id="tablenoturno-semestre2">
+                    <tbody>
+                      <tr>
+                        <td>Matemática Instrumental</td>
+                      </tr>
+                      <tr>
+                        <td>Circuitos Digitais</td>
+                      </tr>
+                      <tr>
+                        <td>Banco De Dados I</td>
+                      </tr>
+                      <tr>
+                        <td>Matemática Instrumental</td>
+                      </tr>
+                      <tr>
+                        <td>Circuitos Digitais</td>
+                      </tr>
+                      <tr>
+                        <td>Banco De Dados I</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      &nbsp&nbspSemestre 3 <a data-toggle="collapse" href="#collapse11"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            <div class="container">
+              <div id="collapse11" class="panel-collapse collapse">
+                <table class="table table-hover" id="tablenoturno-semestre3">
+                  <tbody>
+                    <tr>
+                      <td>Matemática Instrumental</td>
+                    </tr>
+                    <tr>
+                      <td>Circuitos Digitais</td>
+                    </tr>
+                    <tr>
+                      <td>Banco De Dados I</td>
+                    </tr>
+                    <tr>
+                      <td>Matemática Instrumental</td>
+                    </tr>
+                    <tr>
+                      <td>Circuitos Digitais</td>
+                    </tr>
+                    <tr>
+                      <td>Banco De Dados I</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    &nbsp&nbspSemestre 4 <a data-toggle="collapse" href="#collapse12"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          <div class="container">
+            <div id="collapse12" class="panel-collapse collapse">
+              <table class="table table-hover" id="tablenoturno-semestre4">
+                <tbody>
+                  <tr>
+                    <td>Matemática Instrumental</td>
+                  </tr>
+                  <tr>
+                    <td>Circuitos Digitais</td>
+                  </tr>
+                  <tr>
+                    <td>Banco De Dados I</td>
+                  </tr>
+                  <tr>
+                    <td>Matemática Instrumental</td>
+                  </tr>
+                  <tr>
+                    <td>Circuitos Digitais</td>
+                  </tr>
+                  <tr>
+                    <td>Banco De Dados I</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 5 <a data-toggle="collapse" href="#collapse13"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse13" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre5">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 6 <a data-toggle="collapse" href="#collapse14"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse14" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre6">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr><
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 7 <a data-toggle="collapse" href="#collapse15"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse15" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre7">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 8 <a data-toggle="collapse" href="#collapse16"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse16" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre8">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 9 <a data-toggle="collapse" href="#collapse17"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse17" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre9">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  &nbsp&nbspSemestre 10 <a data-toggle="collapse" href="#collapse18"><button type="button" class="btn btn-xs btn-primary">+</button></a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        <div class="container">
+          <div id="collapse18" class="panel-collapse collapse">
+            <table class="table table-hover" id="tablenoturno-semestre10">
+              <tbody>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+                <tr>
+                  <td>Matemática Instrumental</td>
+                </tr>
+                <tr>
+                  <td>Circuitos Digitais</td>
+                </tr>
+                <tr>
+                  <td>Banco De Dados I</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+<!-- FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 - FIM PASSO 2 -->
+
+<!-- INÍCIO PASSO 3 - INÍCIO PASSO 3 - INÍCIO PASSO 3 - INÍCIO PASSO 3 - INÍCIO PASSO 3 - INÍCIO PASSO 3 - INÍCIO PASSO 3 -->
+
+
+<div class="container">
+<p><b>&nbsp;&nbsp;PASSO 3: Quais turnos? (clique para ativar)</b></p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+        <label class="checkbox-inline"><input type="checkbox" value="">Integral</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Noturno</label>
+        </div>
+    </div>
+</div>
+
+<!-- FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 - FIM PASSO 3 -->
+
+</br><center><button type="button" class="btn btn-lg btn-success">GERAR MATRIZ</button></center></br></br>
+
+<!-- INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA -->
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-hover">
+            <thead>
+              <tr>
+                <th><center><h4>MATRIZ GERADA</h4></center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+              </tr>
+			        <tr>
+                <td></br><center><font color="green">Verde: concluído</font> / <font color="red">Vermelho: bloqueado </font>/ Branco: disponível</center></td>
+              </tr>
+
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+  <!-- <div class="col-sm-2"> -->
+  <div class="container-fluid">
+    <img class="img-responsive center-block" src="logo1.png" width="10%" height="10%" >
+    <!-- </di> -->
+    <div class="row">
+      <div class="col-sm-3" margin-left: 10%>
+        <!-- </br> -->
+          <p> Duan <p>
+          <P> duan.a.g.bressan@gmail.com <p>
+          <p> Projetos <p>
+        </br>
+       </div>
+
+       <div class="col-sm-3">
+         <!-- </br> -->
+           <p> Gabriel <p>
+           <P> casagrandegf@gmail.com  <p>
+           <p> Projetos <p>
+         </br>
+        </div>
+      <div class="col-sm-3">
+      <!-- </br> -->
+      <p> Henrique <p>
+        <P> riquejdc@gmail.com <p>
+          <p> Projetos <p>
+          </br>
+      </div>
+
+      <div class="col-sm-3">
+      <!-- </br> -->
+        <p> Jozias <p>
+        <P> jozias.martini@gmail.com <p>
+       <p> Projetos <p>
+
+      </br>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA -->
+
+    <!-- google api and get sheet content -->
+    <script src="gradeIntegral.js"></script>
+    <script src="gradeNoturno.js"></script>
+
+</body>
+</html>
