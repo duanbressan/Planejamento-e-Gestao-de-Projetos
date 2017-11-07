@@ -62,3 +62,9 @@ font-size: 18px;
   .td, table-hover.tr {
       paddind: 30px 30px 30px 30px;
     }
+
+.mybutton {
+	    background-color: #004729; /* Green */
+	    border: none;
+	    color: white;
+}
