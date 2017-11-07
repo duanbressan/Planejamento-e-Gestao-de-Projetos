@@ -1,8 +1,9 @@
+
 .head{
 background-color:#004729;
 color:white;
 margin-top:0px;
-font-style: italic;
+font-style: Roboto;
 font-family: "Cinzel";
 font-size: 18px;
 }
@@ -29,3 +30,35 @@ font-size: 18px;
 	height:40%;
 	float: left;
 }
+
+.body {
+        background-color: white;
+        color: 3b3b3b;
+    }
+    /* Sucess Checkbox Style */
+ .form-group input[type="checkbox"] {
+    display: none;
+    }
+
+ .form-group input[type="checkbox"] + .btn-group > label span {
+        width: 20px;
+    }
+
+  .form-group input[type="checkbox"] + .btn-group > label span:first-child {
+        display: none;
+    }
+  .form-group input[type="checkbox"] + .btn-group > label span:last-child {
+        display: inline-block;
+    }
+
+  .form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+        display: inline-block;
+    }
+  .form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+        display: none;
+    }
+
+    /* Espaçamento da tabela table.tr NÃO ESTÁ FUNCIONANDO... */
+  .td, table-hover.tr {
+      paddind: 30px 30px 30px 30px;
+    }
