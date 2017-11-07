@@ -7,9 +7,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+  <head>
+  <style>
+    body {
+        background-color: white;
+        color: 3b3b3b;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* Sucess Checkbox Style */
+    .form-group input[type="checkbox"] {
+    display: none;
+    }
+
+    .form-group input[type="checkbox"] + .btn-group > label span {
+        width: 20px;
+    }
+
+    .form-group input[type="checkbox"] + .btn-group > label span:first-child {
+        display: none;
+    }
+    .form-group input[type="checkbox"] + .btn-group > label span:last-child {
+        display: inline-block;
+    }
+
+    .form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+        display: inline-block;
+    }
+    .form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+        display: none;
+    }
+
+    /* Espaçamento da tabela table.tr NÃO ESTÁ FUNCIONANDO... */
+    .td, table-hover.tr {
+      paddind: 30px 30px 30px 30px;
+    }
+    .glyphicon.glyphicon-refresh {
+        font-size: 25px;
+    }
+  </style>
 </head>
 <body>
 
@@ -481,7 +519,117 @@ $(document).ready(function(){
 
 </br><center><button type="button" class="btn btn-lg btn-success">Descubra Sua Futura Matriz</button></center></br></br>
 
+</br><center><button type="button" class="btn btn-lg btn-success">GERAR MATRIZ</button></center></br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA - INÍCIO MATRIZ GERADA -->
+
+<div class="container">
+    <div class="panel panel-default">
+
+
+        <div class="panel-body">
+            <table class="table table-hover">
+            <thead>
+              <tr>
+                <th><center><h4>CURSADAS</span></h4></center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-hover">
+            <thead>
+              <tr>
+                <th><center><h4>PODEM SER CURSADAS</span></h4></center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-hover">
+            <thead>
+              <tr>
+                <th><center><h4>NÃO PODEM SER CURSADAS</span></h4></center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn-sm btn-danger">Circuitos Digitais</button> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
+
+
+
+    </div>
+</div>
+
+</br><center><span class="[ glyphicon glyphicon-refresh ]"></center></br></br>
+
+  <!-- FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MATRIZ GERADA ANTIGA
 
 <div class="container">
     <div class="panel panel-default">
@@ -489,37 +637,47 @@ $(document).ready(function(){
             <table class="table table-hover">
             <thead>
               <tr>
-                <th><center><h4>Está é sua Matriz sugerida, faça bom uso!</h4></center></th>
+                <th><center><h4>MATRIZ GERADA</span></h4></center></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-danger">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-default">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-default">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-success">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-danger">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
               <tr>
-                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-basic">1,5 Anos</button></td>
+                <td><button type="button" class="btn btn-sm btn-success">Circuitos Digitais</button> -> <button type="button" class="btn btn-sm btn-default">Matemática Instrumental</button> -> <button type="button" class="btn btn-sm btn-success">Banco De Dados I</button> = <button type="button" class="btn btn-sm btn-basic">1,5 Anos</button></td>
               </tr>
 			        <tr>
-                <td></br><center><font color="green">Verde: concluído</font> / <font color="red">Vermelho: bloqueado </font>/ Branco: disponível</center></td>
+                <td><font color="green"><button type="button" class="btn btn-xs btn-success">&nbsp</button> = concluído</font>
+                 /
+                <font color="red"><button type="button" class="btn btn-xs btn-danger">&nbsp</button> = bloqueado</font>
+                 /
+                <font color=""><button type="button" class="btn btn-xs btn-default">&nbsp</button> = disponível</font></center></td>
               </tr>
+
 
             </tbody>
             </table>
         </div>
     </div>
 </div>
+
+
+</br><center><span class="[ glyphicon glyphicon-refresh ]"></center></br></br>
+
+FIM MATRIZ GERADA ANTIGA -->
 
 <div class="footer">
   <!-- <div class="col-sm-2"> -->
@@ -563,7 +721,7 @@ $(document).ready(function(){
  </div>
 </div>
 
-<!-- FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA - FIM MATRIZ GERADA -->
+
 
     <!-- google api and get sheet content -->
     <script src="gradeIntegral.js"></script>
