@@ -3,67 +3,46 @@ $(document).ready(function() {
     var url = "https://script.google.com/macros/s/AKfycbwVobbz9rduw2NelcE5fLrT5zce9WdDseCeOiwJhLWnAGQuqsfK/exec?action=readIntegral";
 
     $.getJSON(url, function (json) {
-
-        var divContainer = document.getElementById("tableintegral-semestre1");
-        var divContainer2 = document.getElementById("tableintegral-semestre2");
-        var divContainer3 = document.getElementById("tableintegral-semestre3");
-        var divContainer4 = document.getElementById("tableintegral-semestre4");
-        var divContainer5 = document.getElementById("tableintegral-semestre5");
-        var divContainer6 = document.getElementById("tableintegral-semestre6");
-        var divContainer7 = document.getElementById("tableintegral-semestre7");
-        var divContainer8 = document.getElementById("tableintegral-semestre8");
         
         console.log(json.records.length); 
 
+        var semestre = 0;
+
         for (var i = 0; i < json.records.length; i++) {
 
-            console.log(json.records[i].semestre_1); 
-
-            tr = divContainer.insertRow(-1);
-            var tabCell = tr.insertCell(-1);
-            tabCell.innerHTML = json.records[i].semestre_1;
-
-            console.log(json.records[i].semestre_2); 
-
-            tr2 = divContainer2.insertRow(-1);
-            var tabCell2 = tr2.insertCell(-1);
-            tabCell2.innerHTML = json.records[i].semestre_2;
-
-            console.log(json.records[i].semestre_3); 
-
-            tr3 = divContainer3.insertRow(-1);
-            var tabCell3 = tr3.insertCell(-1);
-            tabCell3.innerHTML = json.records[i].semestre_3;
-
-            console.log(json.records[i].semestre_4); 
-
-            tr4 = divContainer4.insertRow(-1);
-            var tabCell4 = tr4.insertCell(-1);
-            tabCell4.innerHTML = json.records[i].semestre_4;
-
-            console.log(json.records[i].semestre_5); 
-
-            tr5 = divContainer5.insertRow(-1);
-            var tabCell5 = tr5.insertCell(-1);
-            tabCell5.innerHTML = json.records[i].semestre_5;
-
-            console.log(json.records[i].semestre_6); 
-
-            tr6 = divContainer6.insertRow(-1);
-            var tabCell6 = tr6.insertCell(-1);
-            tabCell6.innerHTML = json.records[i].semestre_6;
-
-            console.log(json.records[i].semestre_7); 
-
-            tr7 = divContainer7.insertRow(-1);
-            var tabCell7 = tr7.insertCell(-1);
-            tabCell7.innerHTML = json.records[i].semestre_7;
-
-            console.log(json.records[i].semestre_8); 
-
-            tr8 = divContainer8.insertRow(-1);
-            var tabCell8 = tr8.insertCell(-1);
-            tabCell8.innerHTML = json.records[i].semestre_8;
+            createItem(json.records[i].semestre_1, 1, i, semestre++);
+            createItem(json.records[i].semestre_2, 2, i, semestre++);
+            createItem(json.records[i].semestre_3, 3, i, semestre++);
+            createItem(json.records[i].semestre_4, 4, i, semestre++);
+            createItem(json.records[i].semestre_5, 5, i, semestre++);
+            createItem(json.records[i].semestre_6, 6, i, semestre++);
+            createItem(json.records[i].semestre_7, 7, i, semestre++);
+            createItem(json.records[i].semestre_8, 8, i, semestre++);
         }
     });
-});  
+});
+
+function createItem(json, id, i, semestre){
+    var divContainer = document.getElementById("tableintegral-semestre" + id);
+
+    console.log(json); 
+
+    tr = divContainer.insertRow(-1);
+    var tabCell = tr.insertCell(-1);
+    tabCell.innerHTML = getLayoutItem((i + semestre), json);
+}
+
+function getLayoutItem(id, name){
+
+    return "<div class='form-group'>" +  
+                "<input type='checkbox' name='fancy-checkbox-success' id='fancy-checkbox-success-integral" + id + "' autocomplete='off' />" +
+                "<div class='btn-group'>" +
+                    "<label for='fancy-checkbox-success-integral" + id + "' class='btn btn-success'>" +
+                        "<span class='glyphicon glyphicon-ok'></span>" +
+                        "<span> </span>" +
+                    "</label>" +
+                    "<label for='fancy-checkbox-success-integral" + id + "' class='btn btn-default'> " + name + " </label>" +
+                "</div>" +
+                "<button type='button' class='btn btn-primary'>+</button>" +
+            "</div>";
+}  
