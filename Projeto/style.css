@@ -63,7 +63,14 @@ font-size: 18px;
     }
 
 .mybutton {
-	    background-color: #004729; /* Green */
-	    border: none;
-	    color: white;
+    background-color: #004729; /* Green */
+    border: none;
+    color: white;
+}
+
+.mybadge {
+    /* /* background-color: #e0e0e0 */
+    color: #e0e0e0;    
+    background-color: #004729; Green */
+    /* background-color: #ADADAD; */
 }
