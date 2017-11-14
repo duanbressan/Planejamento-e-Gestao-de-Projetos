@@ -37,7 +37,7 @@ function getLayoutItem(id, name){
     return "<div class='form-group'>" +  
                 "<input type='checkbox' name='fancy-checkbox-success' id='fancy-checkbox-success-integral" + id + "' autocomplete='off' />" +
                 "<div class='btn-group'>" +
-                    "<label for='fancy-checkbox-success-integral" + id + "' class='btn btn-success'>" +
+                    "<label for='fancy-checkbox-success-integral" + id + "' class='btn btn-success mybutton'>" +
                         "<span class='glyphicon glyphicon-ok'></span>" +
                         "<span> </span>" +
                     "</label>" +
