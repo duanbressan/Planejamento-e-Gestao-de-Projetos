@@ -74,3 +74,9 @@ font-size: 18px;
     background-color: #004729; Green */
     /* background-color: #ADADAD; */
 }
+
+.mybutton1 {
+    background-color: #004729; /* Green */
+    border: none;
+    color: white;
+}
