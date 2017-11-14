@@ -43,6 +43,6 @@ function getLayoutItem(id, name){
                     "</label>" +
                     "<label for='fancy-checkbox-success-integral" + id + "' class='btn btn-default'> " + name + " </label>" +
                 "</div>" +
-                "<button type='button' class='btn btn-primary'>+</button>" +
+                "<button type='button' class='btn btn-primary'>INFO</button>" +
             "</div>";
 }  
