@@ -26,7 +26,7 @@ HISTORIA 3
 -Não aceita.
 
 	BDDS História 3
-		1-  Não Aceita, pelo motivo da matriz correspondente não gerada. 
+		1- Não Aceita, pelo motivo da matriz correspondente não gerada. 
 		2- Não aceita,pelo motivo de não retorna nada com ou sem selecionar matérias.
 
  
